@@ -19,9 +19,7 @@ services:
     environment:
       - STEPZEN_CONTROL_DB_DSN=postgresql://stepzen:pw@stepzen_metadata/stepzen
     ports:
-      - "8080:8080"
-      - "8087:8087"
-      - "8088:8088"
+      - "9000:9000"
     depends_on:
       - portfolio
       - quote
